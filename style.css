@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    width: 1625px;
+    margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -48,6 +50,20 @@ table {
 }
 
 * {
-    border: 2px solid red;
+    /* border: .5px solid red; */
 }
 
+.left {
+    float: left;
+    width: 38%;
+    background-image: url(/images/DALL·E\ 2023-02-10\ 11.40.25\ -\ a\ vertical\ photo\ of\ green\ plants\ in\ a\ wet\ forest\ in\ a\ cloudy\ day.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.right{
+    float: right;
+    width: 62%;
+}
